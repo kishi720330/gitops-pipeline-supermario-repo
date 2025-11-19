@@ -27,6 +27,9 @@ jobs:
       
       - name: List workspace contents
         run: echo "${{ github.workspace }}"
+
+      - name: List workspace directory contents
+        run: ls -ltr "${{ github.workspace }}"
       
       - name: Run Trivy vulnerability scanner in tarball mode
         uses: aquasecurity/trivy-action@master
