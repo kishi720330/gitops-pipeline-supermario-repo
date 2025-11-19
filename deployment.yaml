@@ -13,7 +13,7 @@ spec:
         app: asecgurusupermariogame
     spec:
       containers:
-      - image: kishi720330/asecgurumariogitopsproject:2
+      - image: kishi720330/asecgurumariogitopsproject:3
         name: asecgurusupermariogame-container
         ports:
         - containerPort: 8080
